@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0, auto;
+}
+
+html,
+body {
+    width: 0, auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    background-color: royalblue;
+    margin: auto;
+  
+    width: 100%;
+    border-style: none;
+
+  
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav li {
+    margin: .75em;
+    font-weight: 700;
+}
+nav li:hover {
+    font-size: larger;
+
+   
+
+  
+}
+nav a {
+    text-decoration: none;
+    color: brown;
+}
+
+.logo1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: .25em;
+}
+
+.logo2 {
+    margin-top: 0;
+    margin-left: 10em;
+    color: brown;
+}
+.logo2:hover {
+    font-family:CommercialScript BT;
+    font-size: larger;
+    color: aliceblue;
+    
+}
+
+nav a:hover {
+    font-weight: 900;
+    color: rgb(36, 31, 6);
+}
+
+nav a:active {
+    font-weight: 900;
+    color: rgb(36, 31, 6);
+    text-decoration: underline 3px brown;
+  
+}
+
+hr {
+    margin: 20px;
+    color: white;
+}
+
+.recent-article {
+    margin: 2em;
+}
+
+.article-featured {
+    margin: 2px;
+}
+
+.aside-wedget {
+    margin: 2em;
+}
+
+
+/**==================
+ARTICLE AREA
+===================**/
+
+.article-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.main {
+    width: 70%;
+    border: 2px magenta inset;
+}
+
+aside {
+    width: 30%;
+    border: 2px magenta inset;
+    margin-left: 4px;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.h2 .p {
+    margin: 2px;
+}
+
+
+/**================
+footer
+==================**/
+
+footer {
+    background-color: royalblue;
+ 
+    font-weight: 900;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+}
+
+img:hover{
+  border: 6px;
+  
+  border-inline-start-style: inset;
+ border-color:brown;
+ 
+}
+.top-button a{
+
+    text-align: center;
+
+    text-decoration: none;
+    align-items: center;
+    margin-left: 48%;
+}
+
+ 
+.top-button a:hover{
+    font-size: larger;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+    padding: 1rem;
+
+
+
+}
+ .top-button a:active{
+
+     color: brown;
+    text-transform: uppercase;
+    font-size: large;
+    }
+
+footer p{
+    text-align: justify;
+}
+.copyright {
+    margin-top: 20px;
+    margin-right: auto;
+  
+    color: white;
+}
+
+.emailicon{
+  height: 80px;
+  width: auto;
+  margin: 5px;
+}
+
+
+
+/**COMMENT SECTION FORM**/
+form{
+    background: transparent;
+ 
+    margin: 5px;
+padding: 5px;
+padding-top: 20px;
+border-radius: 25px;
+padding-bottom: 20px;
+border: 2px solid rgba(125, 117, 133, 0.918);
+background-image: url(./image/icon/background.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+backdrop-filter:blur(20px);
+box-shadow: 0 0 20px rgba(18, 113, 202, 0.8);
+
+
+}
+.commentform{
+}
+label{
+   
+
+
+}
+input{
+  width: 98%;
+ height: 20px;
+  border-style: none;
+
+}
+.send{
+    margin-left: 80%;
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    
+}
+.send:hover{
+    color: white;
+    background-color: black;
+}
+.send:active{
+    padding: 6px;
+    color: red;
+}
+
+
+.formtitle{
+    text-align: center;
+  margin-left: 40%;
+}
+.messageSent{
+    text-align: center;
+    color: beige;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0px;
+    display: none;
+
+
+}
+   
+
+
+
+/**=====================
+Media
+=======================**/
+
+@media only screen and (max-width: 600px) {
+    body {
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.38139005602240894) 100%);
+    }
+
+
+    .article-container {
+        display: table-row;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .main {
+        width: 100%;
+        border: 2px magenta inset;
+    }
+    
+    aside {
+        width: auto;
+        border: 0px magenta inset;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .h2 .p {
+        margin: 2px;
+    }
+    
+    footer{
+        display: grid;
+
+    
+    }
+
+    .top-button a{
+
+      margin-left: 38%;
+  
+
+
+}
+}
