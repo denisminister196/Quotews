@@ -88,7 +88,33 @@ hr {
     margin: 2em;
 }
 
+.commentsection{
+    font-weight:bolder;
+    align-items: center;
+    margin-top: -15px;
 
+
+}
+.hareline2{
+height: 2em;
+margin-top: px;
+
+}
+.commentsection img{
+  height: 2em;
+ width:auto;
+ 
+
+}
+.commentsection img:hover{
+    border-color:rgba(236, 230, 230, 0);
+}
+
+.span img{
+    margin-top:0px;
+
+    
+}
 /**==================
 ARTICLE AREA
 ===================**/
@@ -118,7 +144,9 @@ img {
 .h2 .p {
     margin: 2px;
 }
-
+.hareline2{
+display: table-row;
+}
 
 /**================
 footer
@@ -152,7 +180,7 @@ img:hover{
  
 .top-button a:hover{
     font-size: larger;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     cursor: pointer;
     border-radius: 20px;
     color: white;
@@ -239,7 +267,7 @@ input{
 
 .formtitle{
     text-align: center;
-  margin-left: 40%;
+  margin-left: auto;
 }
 .messageSent{
     text-align: center;
@@ -250,7 +278,13 @@ input{
 
 
 }
-   
+.commentsection{
+    display: flex;
+}
+.commentsection .hareline{
+  line-height: 20px;
+
+}
 
 
 
